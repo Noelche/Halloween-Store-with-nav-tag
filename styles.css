@@ -1,0 +1,175 @@
+{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-image: url(bats.gif);
+    
+    
+}
+body{
+    font-family: sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin-top: 0px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid black;
+    box-shadow: 1px 5px 8px 3px;
+    background: white;
+}
+
+a: link, a: visited{
+    color: orange;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+a: focus, a:hover {
+    color: green;
+}
+
+header{
+    background-image: -webkit-linear-gradient();
+    background-image: -o-linear-gradient();
+    background-image: linear-gradient(
+      45deg, white 0%, orange 75%, black 100%
+    );
+    border-bottom: 3px solid black;
+    padding: 1em 0 1em 0;
+}
+header img {
+    float: left;
+    padding: 0 0 0 15px;
+}
+
+header h2 {
+    font-size: 200%;
+    text-indent: 30px;
+    
+}
+header h3{
+    font-size: 110%;
+    text-indent: 30px;
+}
+header h3{
+    font-size: 110%;
+    text-indent: 30px;
+
+}
+.shadow{
+    text-shadow: 2px 2px 2px black
+}
+
+main span {
+    font-size: 200%;
+}
+main {
+    clear: left;
+    padding: 0px 20px 20px 20px;
+}
+main h2{
+    font-size: 130%
+        padding: 5px 0 5px 5px;
+    
+}
+
+main h3{
+    font-size: 110%;
+    padding: 5px 0 5px 5px;
+}
+
+Section ul{
+    padding: 10px 0 0 15px;
+}
+main li{
+    padding: 10px 0 0 15px;
+}
+main li{
+    padding: 0 0 5px 0;
+}
+aside{
+    float: right;
+    width: 600px;
+    padding: 10px 0 20px 0;
+}
+aside h1{
+    font-size: 150%;
+    padding: 0 0 0 0;
+}
+aside p{
+    padding: 5px 0 5px 10px;
+}
+
+footer{
+    clear: both;
+    border-top: 3px solid black;
+    padding: 1em 0 1em 0;
+    text-align: center;
+    background-color: orange;
+    border-bottom: 3px solid black;
+    padding: 1em 0 1em 0;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+      
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    margin-left: 35px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+    background-color: black;
+}
